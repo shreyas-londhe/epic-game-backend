@@ -1,15 +1,29 @@
-# Basic Sample Hardhat Project
+# SHINOBI SHOWDOWN BACKEND
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+Destroy the Evil Shinobi with your own NFT Shinobi🥷
 
-Try running some of the following tasks:
+This is my project for the course [Create your own mini turn-based NFT browser game](https://app.buildspace.so/courses/CO5cc2751b-e878-41c4-99fa-a614dc910ee9) at [Buildspace](https://buildspace.so/).
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+Check the frontend code at https://github.com/shryasss/epic-game-frontend
+
+## Prerequisites
+
+- Node.js v14+
+
+## Getting started
+
+Follow the steps below to run the project locally:
+
+- Install dependencies: `npm install`
+- List test accounts from your local hardhat node: `npx hardhat accounts`
+- Compile smart contracts: `npx hardhat compile`
+- Test contract: `npx hardhat run scripts/run.js`
+
+### Local deployment
+
+- Start your local hardhat node: `npx hardhat node`
+- Deploy contract to local hardhat node: `npx hardhat run scripts/deploy.js --network localhost`
+
+### Testnet deployment
+
+- Deploy contract to rinkeby testnet: `npx hardhat run scripts/deploy.js --network rinkeby`
