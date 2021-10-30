@@ -1,6 +1,6 @@
 # SHINOBI SHOWDOWN BACKEND
 
-Destroy the Evil Shinobi with your own NFT Shinobi🥷
+Destroy the Evil Shinobi with your own NFT Shinobi�
 
 This is my project for the course [Create your own mini turn-based NFT browser game](https://app.buildspace.so/courses/CO5cc2751b-e878-41c4-99fa-a614dc910ee9) at [Buildspace](https://buildspace.so/).
 
