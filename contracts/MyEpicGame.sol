@@ -132,9 +132,9 @@ contract MyEpicGame is ERC721 {
             charAttributes.name,
             ' -- NFT #: ',
             Strings.toString(_tokenId),
-            '", "description": "This is an NFT that lets people play in the game Metaverse Shinobi!", "image": "',
+            '", "description": "This is an NFT that lets people play in the game Shinobi Showdown!", "image": "ipfs://',
             charAttributes.imageURI,
-            '", "attributes": [ { "trait_type": "Health Points", "value": ',strChakra,', "max_value":',strMaxChakra,'}, { "trait_type": "Attack Damage", "value": ',
+            '", "attributes": [ { "trait_type": "Chakra", "value": ',strChakra,', "max_value":',strMaxChakra,'}, { "trait_type": "Attack Damage", "value": ',
             strAttackDamage,'} ]}'
           )
         )
